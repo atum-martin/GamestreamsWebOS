@@ -1,0 +1,15 @@
+{
+    "vendor": "MartinC",
+    "iconColor": "#6441a5",
+    "largeIcon": "largeIcon.png",
+    "icon": "icon.png",
+    "main": "index.html",
+    "bgImage": "background.png",
+    "id": "com.atum.twitchtv",
+    "title": "Twitch",
+    "type": "web",
+    "version": "1.0.0",
+    "splashBackground": "background.png",
+	"disableBackHistoryAPI": true,
+    "uiRevision":1
+}
