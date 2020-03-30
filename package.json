@@ -1,0 +1,51 @@
+{
+  "name": "twitch-redux",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Twitch API streams app for Smart TV's",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p",
+    "build": "webpack --config webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "0.16.2",
+    "bluebird": "3.5.0",
+    "cors": "^2.8.5",
+    "es6-promise": "4.1.1",
+    "express": "^4.17.1",
+    "hls.js": "^0.10.1",
+    "lodash": "^4.17.10",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-redux": "5.0.6",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0",
+    "sass": "1.0.0-beta.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.2",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "3.0.0",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.2",
+    "react-hot-loader": "^4.3.3",
+    "redux-promise": "0.5.3",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "url-loader": "^1.0.1",
+    "webpack": "3.6.0",
+    "webpack-dev-server": "2.8.2"
+  },
+  "author": "Testreel",
+  "license": "ISC"
+}
