@@ -108,14 +108,16 @@ export function getTopStreams(server, callback) {
                 type: FETCH_TOP_STREAMS,
                 payload: streams.data.streams
             });
+
             dispatch({
                 type: CURRENT_LIST,
                 payload: 'Top 100'
             });
+
             dispatch({
                 type: SELECT_GAME,
                 payload: null
-            })
+            });
 
             if(callback === true) {
                 dispatch(getHLSStream(server, streams.data.streams[0].channel.name));

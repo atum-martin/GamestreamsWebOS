@@ -118,7 +118,7 @@ class GamesMenu extends Component {
     renderGame() {
         const gamesRenderer = this.props.topGames.map((game, index) => {
             if (game.game.name === 'Top 100') {
-                return (<div id="game-top" key={game.id} onClick={() => this.handleGameClick(index)} className={'game-menu-item ' + (this.state.currentGame === index ? 'active': '')} style={{'backgroundImage': `url("http://46.101.36.17/public/top.png")`}}>
+                return (<div id="game-top" key={game.id} onClick={() => this.handleGameClick(index)} className={'game-menu-item ' + (this.state.currentGame === index ? 'active': '')} style={{'backgroundImage': `url("style/top.png")`}}>
                     <div className="game-title">{game.game.name}</div>
                 </div>)
             }
