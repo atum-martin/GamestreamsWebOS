@@ -91,8 +91,8 @@ class GamesMenu extends Component {
             });
         } else {
             if (this.props.topGames[this.state.currentGame].game.name === 'Top 100') {
-                this.props.getTopStreams(this.props.server, () => {});
-                this.props.openChannelsMenu()
+                this.props.getTopStreams(this.props.server, () => this.props.openChannelsMenu());
+
             } else {
                 this.props.selectGame(this.props.server,
                     this.props.topGames[this.state.currentGame].game.name,
