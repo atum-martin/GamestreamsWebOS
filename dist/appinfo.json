@@ -5,10 +5,10 @@
     "icon": "icon_new.png",
     "main": "index.html",
     "bgImage": "background.png",
-    "id": "com.atum.twitchtv",
+    "id": "com.atum.gamestreams",
     "title": "Gamestreams",
     "type": "web",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "splashBackground": "background.png",
 	"disableBackHistoryAPI": true,
     "uiRevision":1
